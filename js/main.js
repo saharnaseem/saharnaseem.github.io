@@ -300,7 +300,6 @@ function initContactForm() {
 
     const name = document.getElementById('senderName').value.trim();
     const email = document.getElementById('senderEmail').value.trim();
-    const projectType = document.getElementById('projectType').value;
     const message = document.getElementById('senderMessage').value.trim();
 
     if (!name || !email || !message) {
@@ -308,9 +307,9 @@ function initContactForm() {
       return;
     }
 
-    const subject = encodeURIComponent(`Enquiry from ${name} [${projectType}]`);
+    const subject = encodeURIComponent(`Enquiry from ${name}`);
     const body = encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\nProject Type: ${projectType}\n\nMessage:\n${message}`
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     );
 
     const mailtoUrl = `mailto:saharnaseem.va@gmail.com?subject=${subject}&body=${body}`;
