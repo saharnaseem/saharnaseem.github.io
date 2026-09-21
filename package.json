@@ -1,0 +1,10 @@
+{
+  "name": "saharnaseem-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio and CV website for Sahar Naseem",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  }
+}
