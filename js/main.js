@@ -98,14 +98,14 @@ function initPortfolioFilter() {
 const caseStudiesData = {
   'case-seating': {
     badge: 'Operations & Logistics',
-    client: 'BellaLuxe Events • Harris & Ysa Wedding (Houston & Tomball, TX)',
+    client: 'BellaLuxe Events • 350-Guest Private Gala (Texas)',
     title: '350+ Guest Venue Logistics, Prismm 3D CAD & Seating Blueprints',
     image: 'assets/portfolio/seating-plan-layout.webp',
     imageAlt: 'Table Seating & Spatial Planning Blueprint',
-    challenge: 'Coordinating high-density seating, VIP tribal gallery exhibits, stage line-of-sight, and safety clearance for a 350-guest gala wedding across multiple expansive US venues.',
-    solution: 'Engineered comprehensive 3D CAD venue maps using Prismm; structured 35+ numbered table allocations; orchestrated master run-sheets and attendee databases across Paperless Post and Greenvelope.',
+    challenge: 'Coordinating high-density seating, VIP staging line-of-sight, and safety clearance for a 350-guest gala wedding across expansive venue spaces.',
+    solution: 'Engineered comprehensive 3D CAD venue maps using Prismm; structured 35 numbered table allocations (10 seats/table); orchestrated master run-sheets and attendee databases across Paperless Post and Greenvelope.',
     bullets: [
-      'Engineered detailed 3D spatial floor plans and seating assignments for 35+ tables (350+ attendees).',
+      'Engineered detailed 3D spatial floor plans and seating assignments for 35 tables (350 attendees).',
       'Coordinated physical and digital guest itineraries, dietary lists, and RSVP delivery issue resolutions.',
       'Ensured full compliance with venue capacities, emergency egress rules, and vendor setup clearances.',
       'Maintained real-time run-sheets keeping vendors, decor teams, and hosts synchronised.'
@@ -121,7 +121,7 @@ const caseStudiesData = {
     challenge: 'Identifying, vetting, and negotiating with specialised suppliers (photo booth activations, AV, custom print) in Nashville under stringent delivery deadlines and budget caps.',
     solution: 'Conducted rigorous market research; designed side-by-side RFP comparative matrices evaluating equipment redundancy, custom branding capabilities, insurance, and service SLA.',
     bullets: [
-      'Vetted multiple specialised vendors (Tulip Photo Booth, Nashville Magazine Booth, 360 Video).',
+      'Vetted multiple specialised vendors across equipment, print capacity, and redundancy criteria.',
       'Developed detailed cost-comparison matrices detailing hourly rates, setup fees, and contract terms.',
       'Negotiated milestone contracts ensuring vendor accountability and backup equipment guarantees.',
       'Delivered client-ready executive summaries enabling confident and rapid executive sign-off.'
@@ -130,14 +130,14 @@ const caseStudiesData = {
   },
   'case-proposal': {
     badge: 'Commercial & Procurement',
-    client: 'BellaLuxe Events • US Event Production Clients',
+    client: 'BellaLuxe Events • Commercial Production Client',
     title: 'Milestone Commercial Proposals & Financial Invoicing ($12k+)',
     image: 'assets/portfolio/event-decor-proposal.webp',
     imageAlt: 'Commercial Proposal and Decor Invoice Breakdown',
-    challenge: 'Structuring clear, transparent, and legally sound financial agreements for high-value decor installations ($4,000 to $12,000+) across international clients.',
+    challenge: 'Structuring clear, transparent, and legally sound financial agreements for high-value decor installations ($10,000+) across international clients.',
     solution: 'Designed comprehensive milestone-based proposals and itemised invoices breaking down stage builds, floral arches, custom monograms, lighting, and breakdown fees with clear payment schedules.',
     bullets: [
-      'Created structured milestone invoices ($9,425 – $11,995+) with 50% deposit and balance terms.',
+      'Created structured milestone invoices ($11,995 total contract) with 50/30/20 deposit and balance terms.',
       'Itemised complex supplier costs (silk florals, sweetheart stages, dance floor monograms, custom signage).',
       'Managed payment tracking, client reconciliation, and supplier disbursements.',
       'Maintained clean, audited financial documentation for accounting records.'
@@ -146,11 +146,11 @@ const caseStudiesData = {
   },
   'case-specs': {
     badge: 'Operations & Logistics',
-    client: 'BellaLuxe Events • Traditional Ceremony Operations',
+    client: 'BellaLuxe Events • Ceremony Production Operations',
     title: 'Event Design Specifications, Attire Tracking & Itineraries',
     image: 'assets/portfolio/event-design-specs.webp',
     imageAlt: 'Event Design Specifications & Attire Matrix',
-    challenge: 'Managing intricate cultural ceremony decor, custom multi-zone aesthetics (stairway banisters, cocktail hour museum, sweetheart arch), and bridal party measurements across distributed team members.',
+    challenge: 'Managing intricate ceremony decor, custom multi-zone aesthetics (stairway banisters, cocktail hour museum, sweetheart arch), and bridal party measurements across distributed team members.',
     solution: 'Compiled unified visual inspiration decks, precise bridal party measurement trackers, and exact execution specs for on-site production crews.',
     bullets: [
       'Drafted multi-page visual specification decks detailing floral palette, lighting, and custom signage.',
@@ -159,22 +159,6 @@ const caseStudiesData = {
       'Directed setup crew on-site protocols to mirror approved visual renderings.'
     ],
     outcome: 'Achieved exact visual fidelity to client brief, completing complex multi-area staging 2 hours ahead of schedule.'
-  },
-  'case-muud': {
-    badge: 'Brand & E-Commerce',
-    client: 'MuuD Essentials • The Onughas Collaboration',
-    title: 'Luxury Product Pitch & Brand Collaboration Collateral',
-    image: 'assets/portfolio/muud-brand-proposal.webp',
-    imageAlt: 'MuuD Essentials Collaboration Pitch Deck',
-    challenge: 'Creating a high-impact corporate partnership proposal for a bespoke line of whipped shea butters, essential oils, and custom-blended luxury candles.',
-    solution: 'Formulated product line concepts, curated scent profiles, and authored an executive-ready presentation deck showcasing product positioning and collaboration mutual benefits.',
-    bullets: [
-      'Curated tailored product concepts ("MuuD x The Onughas") tailored to target demographics.',
-      'Drafted product specifications, ingredient profiles, and luxury packaging designs.',
-      'Built visually compelling presentation slides using Canva and digital layout tools.',
-      'Structured collaborative roll-out timeline for manufacturing, packaging, and launch.'
-    ],
-    outcome: 'Successfully established collaboration interest and solidified brand authority in the luxury wellness market.'
   },
   'case-saharscents': {
     badge: 'Brand & Retail Operations',

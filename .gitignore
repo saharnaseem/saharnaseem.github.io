@@ -1,0 +1,13 @@
+# Sensitive client communication and raw records
+WhatsApp Chat with Truthh US Client.txt
+ilovepdf_merged.pdf
+
+# OS & system files
+.DS_Store
+*.log
+
+# Node & dependencies
+node_modules/
+.vscode/
+.idea/
+scratch/
