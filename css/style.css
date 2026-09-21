@@ -970,6 +970,29 @@ button, input, textarea {
   position: relative;
 }
 
+.privacy-disclaimer-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 8px 18px;
+  background: rgba(184, 142, 86, 0.08);
+  border: 1px solid rgba(184, 142, 86, 0.22);
+  border-radius: var(--radius-full);
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.privacy-disclaimer-pill svg {
+  color: var(--accent-gold);
+  flex-shrink: 0;
+}
+
 .portfolio-filter-bar {
   display: flex;
   align-items: center;
@@ -1977,6 +2000,25 @@ button, input, textarea {
   align-items: center;
   gap: 12px;
   margin-bottom: 12px;
+}
+
+.modal-privacy-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  margin-bottom: 18px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.modal-privacy-note svg {
+  color: var(--accent-gold);
+  flex-shrink: 0;
 }
 
 .modal-badge {
