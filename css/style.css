@@ -196,6 +196,8 @@ button, input, textarea {
   text-decoration: none;
   border: 1px solid transparent;
   line-height: 1.2;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .btn-primary {
@@ -291,12 +293,15 @@ button, input, textarea {
   align-items: center;
   justify-content: space-between;
   height: 100%;
+  gap: 24px;
 }
 
 .nav-brand {
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
+  flex-shrink: 0;
 }
 
 .brand-monogram {
@@ -315,38 +320,29 @@ button, input, textarea {
   border: 1px solid rgba(184, 142, 86, 0.3);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform var(--transition-fast);
+  flex-shrink: 0;
 }
 
 .nav-brand:hover .brand-monogram {
   transform: rotate(-4deg) scale(1.04);
 }
 
-.brand-info {
-  display: flex;
-  flex-direction: column;
-}
-
 .brand-name {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: -0.01em;
   line-height: 1.2;
-}
-
-.brand-role {
-  font-size: 0.76rem;
-  font-weight: 500;
-  color: var(--text-muted);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 32px;
+  gap: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
@@ -355,6 +351,7 @@ button, input, textarea {
   color: var(--text-secondary);
   position: relative;
   padding: 6px 0;
+  white-space: nowrap;
   transition: color var(--transition-fast);
 }
 
@@ -380,7 +377,11 @@ button, input, textarea {
 .nav-actions {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-left: 12px;
+  padding-left: 20px;
+  border-left: 1px solid var(--border-light);
 }
 
 .mobile-toggle {
@@ -1643,7 +1644,7 @@ button, input, textarea {
 }
 
 /* ==========================================================================
-   CONTACT & INQUIRY SECTION
+   CONTACT & ENQUIRY SECTION
    ========================================================================== */
 
 .contact-section {
@@ -2096,7 +2097,62 @@ button, input, textarea {
    RESPONSIVE DESIGN (TABLET & MOBILE)
    ========================================================================== */
 
+@media (max-width: 1200px) and (min-width: 1025px) {
+  .nav-menu {
+    gap: 16px;
+  }
+  .nav-link {
+    font-size: 0.88rem;
+  }
+  .nav-actions {
+    gap: 10px;
+    padding-left: 16px;
+    margin-left: 8px;
+  }
+}
+
 @media (max-width: 1024px) {
+  :root {
+    --header-height: 70px;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    flex-direction: column;
+    padding: 32px 24px;
+    gap: 20px;
+    border-bottom: 1px solid var(--border-light);
+    box-shadow: var(--shadow-lg);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all var(--transition-fast);
+  }
+
+  .nav-menu.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .nav-actions {
+    border-left: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .nav-actions .btn {
+    display: none;
+  }
+
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -2160,41 +2216,6 @@ button, input, textarea {
 }
 
 @media (max-width: 768px) {
-  :root {
-    --header-height: 70px;
-  }
-
-  .nav-menu {
-    position: fixed;
-    top: var(--header-height);
-    left: 0;
-    right: 0;
-    background: #FFFFFF;
-    flex-direction: column;
-    padding: 32px 24px;
-    gap: 20px;
-    border-bottom: 1px solid var(--border-light);
-    box-shadow: var(--shadow-lg);
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-10px);
-    transition: all var(--transition-fast);
-  }
-
-  .nav-menu.open {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-
-  .mobile-toggle {
-    display: block;
-  }
-
-  .nav-actions .btn {
-    display: none;
-  }
-
   .hero-title {
     font-size: 2.5rem;
   }

@@ -118,10 +118,10 @@ const caseStudiesData = {
     title: 'Nashville Multi-Vendor Procurement & RFP Cost Analysis',
     image: 'assets/portfolio/vendor-procurement.webp',
     imageAlt: 'Vendor Procurement & RFP Comparison Matrix',
-    challenge: 'Identifying, vetting, and negotiating with specialized suppliers (photo booth activations, AV, custom print) in Nashville under stringent delivery deadlines and budget caps.',
+    challenge: 'Identifying, vetting, and negotiating with specialised suppliers (photo booth activations, AV, custom print) in Nashville under stringent delivery deadlines and budget caps.',
     solution: 'Conducted rigorous market research; designed side-by-side RFP comparative matrices evaluating equipment redundancy, custom branding capabilities, insurance, and service SLA.',
     bullets: [
-      'Vetted multiple specialized vendors (Tulip Photo Booth, Nashville Magazine Booth, 360 Video).',
+      'Vetted multiple specialised vendors (Tulip Photo Booth, Nashville Magazine Booth, 360 Video).',
       'Developed detailed cost-comparison matrices detailing hourly rates, setup fees, and contract terms.',
       'Negotiated milestone contracts ensuring vendor accountability and backup equipment guarantees.',
       'Delivered client-ready executive summaries enabling confident and rapid executive sign-off.'
@@ -135,10 +135,10 @@ const caseStudiesData = {
     image: 'assets/portfolio/event-decor-proposal.webp',
     imageAlt: 'Commercial Proposal and Decor Invoice Breakdown',
     challenge: 'Structuring clear, transparent, and legally sound financial agreements for high-value decor installations ($4,000 to $12,000+) across international clients.',
-    solution: 'Designed comprehensive milestone-based proposals and itemized invoices breaking down stage builds, floral arches, custom monograms, lighting, and breakdown fees with clear payment schedules.',
+    solution: 'Designed comprehensive milestone-based proposals and itemised invoices breaking down stage builds, floral arches, custom monograms, lighting, and breakdown fees with clear payment schedules.',
     bullets: [
       'Created structured milestone invoices ($9,425 – $11,995+) with 50% deposit and balance terms.',
-      'Itemized complex supplier costs (silk florals, sweetheart stages, dance floor monograms, custom signage).',
+      'Itemised complex supplier costs (silk florals, sweetheart stages, dance floor monograms, custom signage).',
       'Managed payment tracking, client reconciliation, and supplier disbursements.',
       'Maintained clean, audited financial documentation for accounting records.'
     ],
@@ -188,7 +188,7 @@ const caseStudiesData = {
       'Sourced high-grade amber/matte packaging and print suppliers, negotiating lower unit costs.',
       'Directed in-person retail pop-ups: booth spatial design, POS inventory logistics, and customer sales.',
       'Produced digital marketing assets, product photography, and social videos (Canva, CapCut).',
-      'Integrated e-commerce workflows (Shopify), order fulfillment, and HMRC tax documentation.'
+      'Integrated e-commerce workflows (Shopify), order fulfilment, and HMRC tax documentation.'
     ],
     outcome: 'Rapid multi-channel customer acquisition, verified 5-star product ratings, and a flourishing brand footprint across London and online.'
   }
@@ -324,7 +324,7 @@ function initContactForm() {
       return;
     }
 
-    const subject = encodeURIComponent(`Inquiry from ${name} [${projectType}]`);
+    const subject = encodeURIComponent(`Enquiry from ${name} [${projectType}]`);
     const body = encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\nProject Type: ${projectType}\n\nMessage:\n${message}`
     );
